@@ -1,0 +1,22 @@
+{
+    "name": "oblak/asset-manifest",
+    "version": "1.0.0",
+    "description": "Asset Manifest handler",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Oblak\\Asset\\": "src/"   
+        }
+    },
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Sibin Grasic",
+            "email": "sibin.grasic@oblak.studio"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    }
+}
